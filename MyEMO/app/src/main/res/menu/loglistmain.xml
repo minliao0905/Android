@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="ifRoom"
+    tools:context=".ui.main.LogActivity">
+    <item android:id="@+id/menu_deleteAll" android:title="清空日志"></item>
+    <item android:id="@+id/menu_change1" android:title="列表模式"></item>
+</menu>

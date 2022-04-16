@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titileTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#21B624"
+        android:gravity="left"
+        android:text="微信登录"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:id="@id/linelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="账   号："
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/et_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/tv_number"
+                android:hint="QQ号\微信号\Email"
+                android:textSize="16sp"></EditText>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/register_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密   码："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/tv_pwd"
+                android:hint="    密码"
+                android:textSize="16sp"></EditText>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/linelayout"
+            android:layout_gravity="center"
+            android:background="#37C13A"
+            android:text="注册"
+            android:textSize="20sp"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录遇到问题？"
+            android:layout_gravity="center"
+            android:textSize="12sp"></TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

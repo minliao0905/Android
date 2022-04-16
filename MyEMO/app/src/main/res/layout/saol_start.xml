@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#8DB6CD">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saolei"
+        android:gravity="center"
+        android:textSize="64dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#674444"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+        <Button
+            android:id="@+id/easymodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="简单模式"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="32sp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#3F6078"
+            android:background="@drawable/button1_style" />
+        <Button
+            android:id="@+id/midmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="中等模式"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="32sp"
+            android:textColor="#3F6078"
+            android:background="@drawable/button3_style"/>
+        <Button
+            android:id="@+id/hardmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="困难模式"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="32sp"
+            android:textColor="#3F6078"
+            android:background="@drawable/button2_style"/>
+
+    </LinearLayout>
+    <com.example.myemo.ui.Fragment.Saolei.ui.view.MyGifView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

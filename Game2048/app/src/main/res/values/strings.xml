@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game2048</string>
+    <string name="action_back">退出游戏</string>
+    <string name="action_record">查看战绩</string>
+    <string name="score">分数:</string>
+    <string name="Highest_score">最高分: </string>
+</resources>

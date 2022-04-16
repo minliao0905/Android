@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infos>
+    <city id="bj">
+        <temp>20°/30°</temp>
+        <weather>天气：多云</weather>
+        <name>北京</name>
+        <pm>80</pm>
+        <wind>风力：1级</wind>
+    </city>
+    <city id="sh">
+        <temp>20°/30°</temp>
+        <weather>天气：晴转多云</weather>
+        <name>上海</name>
+        <pm>80</pm>
+        <wind>风力：4级</wind>
+    </city>
+    <city id="sz">
+        <temp>20°/30°</temp>
+        <weather>天气：多云</weather>
+        <name>深圳</name>
+        <pm>80</pm>
+        <wind>风力：1级</wind>
+    </city>
+</infos>

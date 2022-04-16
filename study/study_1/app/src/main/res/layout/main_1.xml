@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main1">
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lelay1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/teal_200"
+            android:text="text01"></TextView>
+
+        <TextView
+            android:id="@+id/lelay2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/black"
+            android:text="text02"></TextView>
+
+        <TextView
+            android:id="@+id/lelay3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/teal_200"
+            android:text="text03"></TextView>
+
+        <LinearLayout
+            android:id="@+id/lilay2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lay4"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/black"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/lay5"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/teal_700"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/lay6"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/teal_200"
+                android:text="text" />
+
+            <TextView
+                android:id="@+id/lay7"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/black"
+                android:text="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

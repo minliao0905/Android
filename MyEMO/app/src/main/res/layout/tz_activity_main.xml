@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:background="#FFF3BB"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/left"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/td_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textSize="20sp"
+                android:paddingLeft="13dp"
+                />
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text=""
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/right"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/td_Hscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Highest_score"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/tvHScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.example.myemo.ui.Fragment.Game2048.ui.view.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.example.myemo.ui.Fragment.Game2048.ui.view.GameView>
+
+
+</LinearLayout>
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/mainbg3"
+        tools:context=".MainActivity"
+      >
+    <LinearLayout
+        android:id="@+id/topchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/phone_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#2267ED36"
+            android:gravity="center_horizontal"
+            android:text="联系人"
+            android:textSize="24sp"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"></TextView>
+        <Button
+
+            android:id="@+id/message_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短信"
+            android:textSize="24sp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:background="#2267ED36"
+            ></Button>
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topchange"
+        android:iconifiedByDefault="false"
+        android:queryHint="搜索内容" />
+
+    <ListView
+        android:id="@+id/phonumberlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchView"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeimbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp">
+        <ImageButton
+            android:id="@+id/addnewimbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/add2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:text="添加号码"></TextView>
+
+        <ImageButton
+            android:id="@+id/callallcontactimbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/calln"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:text="通话记录"></TextView>
+        <ImageButton
+            android:id="@+id/callphonebtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/callaa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="拨号"
+            android:textSize="16sp"
+            android:textAlignment="center"></TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>

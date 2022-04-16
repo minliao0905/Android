@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_root"
+    android:background="#32DDC3A9" >
+
+    <RelativeLayout
+        android:id="@+id/editrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/edit_backbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/arr" />
+
+
+        <ImageButton
+            android:id="@+id/changeedit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/logsavebtn"
+            android:background="@mipmap/m1" />
+
+
+        <Button
+            android:id="@+id/logsavebtn"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/log_textview_style"
+            android:padding="2dp"
+            android:text="保存" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/edit_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editrr"
+        android:layout_marginLeft="10dp"
+        android:text="时间" />
+
+
+    <ScrollView
+        android:id="@+id/log_rr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editrr"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/log_textview_style">
+
+
+        <com.example.myemo.view.MyEditText
+            android:id="@+id/log_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/log_textview_style"
+            android:fitsSystemWindows="true"
+            android:hint="现在有什么想法吗？"
+            android:imeOptions="actionSend"
+            android:maxLines="100" />
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

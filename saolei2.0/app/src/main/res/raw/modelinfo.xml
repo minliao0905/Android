@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infos>
+    <model id ="1">
+        <ROW>20</ROW>
+        <COL>10</COL>
+        <LEICOUNT>15</LEICOUNT>
+        <textsize>16</textsize>
+    </model>
+    <model id ="2">
+        <ROW>20</ROW>
+        <COL>10</COL>
+        <LEICOUNT>20</LEICOUNT>
+        <textsize>16</textsize>
+    </model>
+    <model id ="2">
+        <ROW>20</ROW>
+        <COL>10</COL>
+        <LEICOUNT>35</LEICOUNT>
+        <textsize>16</textsize>
+    </model>
+</infos>

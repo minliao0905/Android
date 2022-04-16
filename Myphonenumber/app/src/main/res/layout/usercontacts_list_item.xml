@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+  <ImageView
+    android:id="@+id/call_type"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_centerVertical="true"
+    android:text="通话类型"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+      android:background="@drawable/amazing"
+    />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_toRightOf="@+id/call_type">
+ <TextView
+     android:id="@+id/name"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="通话者的姓名"
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+     android:textSize="16dp"
+     android:textAppearance="?android:textAppearanceMedium"
+     android:textColor="#cccccc" />
+  <TextView
+     android:id="@+id/number"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="用户号码00000"
+      android:textSize="16dp"
+     android:textAppearance="?android:textAppearanceSmall"
+     android:textColor="#61DC0A" />
+</LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/contactlist_call_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/p1" />
+
+ <TextView
+     android:id="@+id/time"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerVertical="true"
+     android:layout_toLeftOf="@+id/contactlist_call_btn"
+     android:text="通话日期"
+     android:textColor="#916565" />
+</RelativeLayout>

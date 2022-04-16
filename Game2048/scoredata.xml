@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="time1">11月30日 13:22:07</string>
+    <string name="time2">11月30日 13:22:19</string>
+    <string name="score2">0</string>
+    <int name="nowcount" value="3" />
+    <int name="HightestScore" value="48" />
+    <string name="time0">11月26日 12:59:30</string>
+    <string name="score0">0</string>
+    <string name="score1">0</string>
+</map>

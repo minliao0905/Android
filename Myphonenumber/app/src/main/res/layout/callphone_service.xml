@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/callbg2">
+
+    <TextView
+        android:id="@+id/calltop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="拨号📞"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:id="@+id/callll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/calltop">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="联系号码："
+            android:gravity="center"
+            android:textColor="#6D89D1"
+            android:textSize="32sp"/>
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+           android:gravity="center"
+            android:background="#9C5A7595"
+            android:hint="+请输入您的号码"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/callservicebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callll"
+        android:layout_margin="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#4B8A4B32"
+        android:text="📞call"
+        android:textSize="20sp"
+        android:textColor="#F80B0B"/>
+</RelativeLayout>

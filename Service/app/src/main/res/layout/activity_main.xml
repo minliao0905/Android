@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="#B0E0E6"
+        android:onClick="start"
+        android:text="start Service"
+        android:textColor="#6C6C6C"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_start"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_start"
+        android:layout_marginBottom="25dp"
+        android:background="#F08080"
+        android:onClick="stop"
+        android:text="stop service"
+        android:textColor="#6c6c6c"
+        android:textSize="18sp"
+          />
+
+
+</RelativeLayout>

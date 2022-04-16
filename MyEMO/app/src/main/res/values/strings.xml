@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">当然</string>
+    <string name = "introduce1">当然要开心啦！</string>
+    <string name="action_back">退出游戏</string>
+    <string name="action_record">查看战绩</string>
+    <string name="score">分数:</string>
+    <string name="Highest_score">最高分: </string>
+    <string name="gamestart">游戏规则：</string>
+    <string name="Game2048isover1">恭喜</string>
+    <string name="Game2048isover2">合成</string>
+
+    <string name="Game2048">  滑动屏幕，所有方块会往滑动方向运动，两个相同数字的方块撞在一起之后合并成为他们的和，每次操作之后会在空白的方格处随机生成一个2或者4，最终得到一个“2048”的方块就算胜利了。如果16个格子全部填满并且相邻的格子都不相同也就是无法移动的话，那么游戏结束，您挑战失败！</string>
+   <string name="pingtu">滑动屏幕，通过移动空白的方块，移动图片，将所有图片碎片拼成一幅完整的图，即完成游戏。游戏过程中，可点击按钮查看要拼成的图片。 </string>
+    <string name="saolei">点击屏幕中的空白方块，方块显示的数字为以当前方块为中心的九个方块中(包括当前方块)为地雷的个数，根据显示的数字推测周围雷的位置，直到找出所有不为雷的方块，游戏结束。</string>
+</resources>

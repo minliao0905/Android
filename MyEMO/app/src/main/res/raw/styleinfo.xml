@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <infos>
+    <style id ="1">
+        <background>#32DDC3A9</background>
+        <textcolor>#000000</textcolor>
+    </style>
+    <style id ="2">
+         <background>#FFFFFF</background>
+         <textcolor>#000000</textcolor>
+    </style>
+    <style id ="3">
+        <background>#FFAAFA</background>
+        <textcolor>#2F4F4F</textcolor>
+    </style>
+    <style id ="4">
+        <background>#696969</background>
+        <textcolor>#54FF9F</textcolor>
+    </style>
+    <style id ="5">
+        <background>#778899</background>
+        <textcolor>#7FFF00</textcolor>
+    </style>
+    <style id ="6">
+        <background>#7EC0EE</background>
+        <textcolor>#363636</textcolor>
+    </style>
+    <style id ="7">
+        <background>#B9D3EE</background>
+        <textcolor>#00008B</textcolor>
+    </style>
+
+    <style id ="8">
+        <background>#B4CDCD</background>
+        <textcolor>#FFFF00</textcolor>
+    </style>
+    <style id ="9">
+        <background>#E0FFFF</background>
+        <textcolor>#8B4513</textcolor>
+    </style>
+    <style id ="10">
+        <background>#000000</background>
+        <textcolor>#FFFFFF</textcolor>
+    </style>
+    <style id ="11">
+        <background>#76EEC6</background>
+        <textcolor>#006400</textcolor>
+    </style>
+    <style id ="12">
+        <background>#CD9B1D</background>
+        <textcolor>#00FA9A</textcolor>
+    </style>
+    <style id ="13">
+        <background>#FFC1C1</background>
+        <textcolor>#8B1A1A</textcolor>
+    </style>
+    <style id ="14">
+        <background>#A0522D</background>
+        <textcolor>#EED8AE</textcolor>
+    </style>
+    <style id ="15">
+        <background>#9370DB</background>
+        <textcolor>#7FFF00</textcolor>
+    </style>
+    <style id ="16">
+        <background>#F0FFF0</background>
+        <textcolor>#384abc</textcolor>
+    </style>
+    <style id ="17">
+        <background>#00688B</background>
+        <textcolor>#F5F5DC</textcolor>
+    </style>
+    <style id ="18">
+        <background>#008B8B</background>
+        <textcolor>#FFA500</textcolor>
+    </style>
+    <style id ="19">
+        <background>#FFA500</background>
+        <textcolor>#000000</textcolor>
+    </style>
+    <style id ="20">
+        <background>#F5DEB3</background>
+        <textcolor>#8B4726</textcolor>
+    </style>
+    <style id ="21">
+        <background>#00008B</background>
+        <textcolor>#90EE90</textcolor>
+    </style>
+    <style id ="22">
+        <background>#7FFFD4</background>
+        <textcolor>#CD2626</textcolor>
+    </style>
+    <style id ="23">
+        <background>#556B2F</background>
+        <textcolor>#FFFF00</textcolor>
+    </style>
+    <style id ="24">
+        <background>#20B2AA</background>
+        <textcolor>#FFFFE0</textcolor>
+    </style>
+    </infos>
